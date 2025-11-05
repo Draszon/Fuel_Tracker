@@ -14,14 +14,8 @@
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="font-sans antialiased bg-gray-100 text-gray-700">
-  <header class="
-    w-full h-14 flex justify-center items-center
-    border-b border-gray-300 mb-10">
-    <div>
-      <h1 class="text-2xl font-bold">Üzemanyag nyilvántartó</h1>
-    </div>
-  </header>
+<body class="font-sans antialiased bg-gray-100 text-gray-800">
+
   <main>
       @yield('content')
   </main>
