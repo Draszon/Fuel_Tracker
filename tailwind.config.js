@@ -26,10 +26,10 @@ export default {
         keyframes: {
             appear: {
                 '0%': {maxHeight: '0px'},
-                '100%': {maxHeight: '240px'},
+                '100%': {maxHeight: '350px'},
             },
             disappear: {
-                '0%': {maxHeight: '240px'},
+                '0%': {maxHeight: '350px'},
                 '100%': {maxHeight: '0px'},
             }
         },

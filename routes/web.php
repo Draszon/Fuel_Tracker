@@ -9,7 +9,11 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
-    Route::get('/', [FuelController::class, 'index'])->name('fuel.index');
+    Route::get('/', function () {
+        return view('public.main');
+    })->name('public.main');
+
+    Route::get('/fuel-list', [FuelController::class, 'index'])->name('fuel.list');
     Route::post('/fuel', [FuelController::class, 'store'])->name('fuel.store');
     Route::put('/fuel/{id}', [FuelController::class, 'update'])->name('fuel.update');
     Route::delete('/fuel/{id}', [FuelController::class, 'destroy'])->name('fuel.destroy');

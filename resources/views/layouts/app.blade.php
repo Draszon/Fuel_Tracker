@@ -21,17 +21,17 @@
     </div>
     <nav class="hidden sm:block">
       <ul class="flex gap-7 font-medium">
-        <a href="#" class="hover:text-gray-500 transition ease-in-out duration-150"><li>Főoldal</li></a>
-        <a href="#" class="hover:text-gray-500 transition ease-in-out duration-150"><li>Üzemanyag nyilvántartó</li></a>
+        <a href="{{ route('public.main') }}" class="hover:text-gray-500 transition ease-in-out duration-150"><li>Főoldal</li></a>
+        <a href="{{ route('fuel.list') }}" class="hover:text-gray-500 transition ease-in-out duration-150"><li>Üzemanyag nyilvántartó</li></a>
         <a href="#" class="hover:text-gray-500 transition ease-in-out duration-150"><li>Statisztikák</li></a>
       </ul>
     </nav>
   </header>
 
-  <nav class="bg-white flex sm:hidden items-center px-2 h-0 overflow-hidden">
+  <nav class="bg-white flex sm:hidden items-center px-2 max-h-0 overflow-hidden" id="mobile-nav">
     <ul class="flex flex-col gap-2 font-medium w-full">
-      <a href="#" class="hover:text-gray-500 transition ease-in-out duration-150 menu-btn"><li>Főoldal</li></a>
-      <a href="#" class="hover:text-gray-500 transition ease-in-out duration-150 menu-btn"><li>Üzemanyag nyilvántartó</li></a>
+      <a href="{{ route('public.main') }}" class="hover:text-gray-500 transition ease-in-out duration-150 menu-btn"><li>Főoldal</li></a>
+      <a href="{{ route('fuel.list') }}" class="hover:text-gray-500 transition ease-in-out duration-150 menu-btn"><li>Üzemanyag nyilvántartó</li></a>
       <a href="#" class="hover:text-gray-500 transition ease-in-out duration-150 menu-btn"><li>Statisztikák</li></a>
     </ul>
   </nav>

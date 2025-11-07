@@ -10,7 +10,7 @@ class FuelController extends Controller
     public function index () {
         //összes adat lekérdezést, majd a fő nézetnek átadása
         $fuelDatas = Fuel::orderBy('date', 'desc')->get();
-        return view('public.main', compact('fuelDatas'));
+        return view('public.fuel', compact('fuelDatas'));
     }
 
     public function store (Request $request) {
@@ -62,7 +62,7 @@ class FuelController extends Controller
         $fuelData = Fuel::findOrFail($id);
         $fuelDatas = Fuel::orderBy('date', 'desc')->get();
 
-        return view('public.main', [
+        return view('public.fuel', [
             'fuelDatas' => $fuelDatas,
             'editFuel' => $fuelData,
         ]);
