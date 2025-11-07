@@ -15,6 +15,26 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="font-sans antialiased bg-gray-100 text-gray-800">
+  <header class="bg-white h-16 flex justify-center items-center">
+    <div class="sm:hidden w-12" id="nav-btn">
+      <img src="{{ asset('hamburger-menu.svg') }}" alt="Hamburger menü">
+    </div>
+    <nav class="hidden sm:block">
+      <ul class="flex gap-7 font-medium">
+        <a href="#" class="hover:text-gray-500 transition ease-in-out duration-150"><li>Főoldal</li></a>
+        <a href="#" class="hover:text-gray-500 transition ease-in-out duration-150"><li>Üzemanyag nyilvántartó</li></a>
+        <a href="#" class="hover:text-gray-500 transition ease-in-out duration-150"><li>Statisztikák</li></a>
+      </ul>
+    </nav>
+  </header>
+
+  <nav class="bg-white flex sm:hidden items-center px-2 h-0 overflow-hidden">
+    <ul class="flex flex-col gap-2 font-medium w-full">
+      <a href="#" class="hover:text-gray-500 transition ease-in-out duration-150 menu-btn"><li>Főoldal</li></a>
+      <a href="#" class="hover:text-gray-500 transition ease-in-out duration-150 menu-btn"><li>Üzemanyag nyilvántartó</li></a>
+      <a href="#" class="hover:text-gray-500 transition ease-in-out duration-150 menu-btn"><li>Statisztikák</li></a>
+    </ul>
+  </nav>
 
   <main>
       @yield('content')
