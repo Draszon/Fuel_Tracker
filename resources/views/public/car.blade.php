@@ -55,19 +55,175 @@
   </div>
 </section>
 
-<section>
-  <div class="bg-white py-10 rounded-md shadow-sm w-full max-w-[1280px] xl:mx-auto">
-    <div>
-      <div class="bg-gray-200 rounded border-b-2 border-gray-300 shadow-md">
-        <ul>
-          <li>Név</li>
-          <li>Rendszám</li>
-          <li>Típus</li>
-          <li>Gyártási év</li>
-          <li>Olajcsere ciklus (km)</li>
-          <li>Olajcsere ciklus (év)</li>
-          <li>Fékolaj csere ciklus (év)</li>
-        </ul>
+<section class="my-10">
+  <div id="háttér" class="bg-white py-10 px-2 rounded-md shadow-sm w-full max-w-[1280px] xl:mx-auto">
+    <div id="táblázat">
+      <div class="overflow-x-auto flex">
+        <div id="oszlop" class="bg-gray-200 rounded sticky left-0">
+          <ul class="flex flex-col w-32">
+            <li class="h-20 flex items-center border-b border-gray-300 px-5 font-semibold">Név</li>
+            <li class="h-20 flex items-center border-b border-gray-300 px-5 font-semibold">Rendszám</li>
+            <li class="h-20 flex items-center border-b border-gray-300 px-5 font-semibold">Típus</li>
+            <li class="h-20 flex items-center border-b border-gray-300 px-5 font-semibold">Gyártási év</li>
+            <li class="h-20 flex items-center border-b border-gray-300 px-5 font-semibold">Olajcsere ciklus (km)</li>
+            <li class="h-20 flex items-center border-b border-gray-300 px-5 font-semibold">Olajcsere ciklus (év)</li>
+            <li class="h-20 flex items-center border-b border-gray-300 px-5 font-semibold">Fékolaj csere ciklus (év)</li>
+          </ul>
+        </div>
+        <div id="oszlop">
+          <ul class="flex flex-col w-32">
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">Suzi</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">KZN-235</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">Suzuki swift</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2008</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">10000 km</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2 év</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2 év</li>
+          </ul>
+        </div>
+        <div id="oszlop">
+          <ul class="flex flex-col w-32">
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">SX</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">KZN-235</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">Suzuki SX4</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2013</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">15000 km</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2 év</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">3 év</li>
+          </ul>
+        </div>
+        <div id="oszlop">
+          <ul class="flex flex-col w-32">
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">SX</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">KZN-235</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">Suzuki SX4</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2013</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">15000 km</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2 év</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">3 év</li>
+          </ul>
+        </div>
+        <div id="oszlop">
+          <ul class="flex flex-col w-32">
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">SX</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">KZN-235</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">Suzuki SX4</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2013</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">15000 km</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2 év</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">3 év</li>
+          </ul>
+        </div>
+        <div id="oszlop">
+          <ul class="flex flex-col w-32">
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">SX</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">KZN-235</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">Suzuki SX4</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2013</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">15000 km</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2 év</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">3 év</li>
+          </ul>
+        </div>
+        <div id="oszlop">
+          <ul class="flex flex-col w-32">
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">SX</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">KZN-235</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">Suzuki SX4</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2013</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">15000 km</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2 év</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">3 év</li>
+          </ul>
+        </div>
+        <div id="oszlop">
+          <ul class="flex flex-col w-32">
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">SX</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">KZN-235</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">Suzuki SX4</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2013</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">15000 km</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2 év</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">3 év</li>
+          </ul>
+        </div>
+        <div id="oszlop">
+          <ul class="flex flex-col w-32">
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">SX</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">KZN-235</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">Suzuki SX4</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2013</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">15000 km</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2 év</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">3 év</li>
+          </ul>
+        </div>
+        <div id="oszlop">
+          <ul class="flex flex-col w-32">
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">SX</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">KZN-235</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">Suzuki SX4</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2013</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">15000 km</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2 év</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">3 év</li>
+          </ul>
+        </div>
+        <div id="oszlop">
+          <ul class="flex flex-col w-32">
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">SX</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">KZN-235</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">Suzuki SX4</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2013</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">15000 km</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2 év</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">3 év</li>
+          </ul>
+        </div>
+        <div id="oszlop">
+          <ul class="flex flex-col w-32">
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">SX</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">KZN-235</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">Suzuki SX4</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2013</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">15000 km</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2 év</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">3 év</li>
+          </ul>
+        </div>
+        <div id="oszlop">
+          <ul class="flex flex-col w-32">
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">SX</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">KZN-235</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">Suzuki SX4</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2013</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">15000 km</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2 év</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">3 év</li>
+          </ul>
+        </div>
+        <div id="oszlop">
+          <ul class="flex flex-col w-32">
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">SX</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">KZN-235</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">Suzuki SX4</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2013</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">15000 km</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2 év</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">3 év</li>
+          </ul>
+        </div>
+        <div id="oszlop">
+          <ul class="flex flex-col w-32">
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">SX</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">KZN-235</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">Suzuki SX4</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2013</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">15000 km</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">2 év</li>
+            <li class="h-20 flex items-center border-b border-gray-200 px-5">3 év</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>

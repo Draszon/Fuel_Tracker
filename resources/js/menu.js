@@ -2,7 +2,6 @@
 
 function menu() {
   const navBtn = document.getElementById("nav-btn");
-  const menuBtn = document.querySelectorAll(".menu-btn");
   const mobileNav = document.getElementById("mobile-nav");
   
   let isOpen = false;
@@ -16,7 +15,6 @@ function menu() {
       mobileNav.classList.add('animate-disappear');
     }
     isOpen = !isOpen
-    
   });
 };
 
