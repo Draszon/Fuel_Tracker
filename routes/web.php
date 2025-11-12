@@ -13,6 +13,10 @@ Route::middleware('auth')->group(function () {
         return view('public.main');
     })->name('public.main');
 
+    Route::get('/car-data', function() {
+        return view('public.car');
+    })->name('car.data');
+
     Route::get('/fuel-list', [FuelController::class, 'index'])->name('fuel.list');
     Route::post('/fuel', [FuelController::class, 'store'])->name('fuel.store');
     Route::put('/fuel/{id}', [FuelController::class, 'update'])->name('fuel.update');

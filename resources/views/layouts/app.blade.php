@@ -22,8 +22,10 @@
     <nav class="hidden sm:block">
       <ul class="flex gap-7 font-medium">
         <a href="{{ route('public.main') }}" class="hover:text-gray-500 transition ease-in-out duration-150"><li>Főoldal</li></a>
+        <a href="{{ route('car.data') }}" class="hover:text-gray-500 transition ease-in-out duration-150"><li>Autó adatai</li></a>
         <a href="{{ route('fuel.list') }}" class="hover:text-gray-500 transition ease-in-out duration-150"><li>Üzemanyag nyilvántartó</li></a>
-        <a href="#" class="hover:text-gray-500 transition ease-in-out duration-150"><li>Statisztikák</li></a>
+        <a href="#" class="hover:text-gray-500 transition ease-in-out duration-150"><li>Szerviznapló</li></a>
+        <a href="#" class="hover:text-gray-500 transition ease-in-out duration-150"><li>Biztosítási adatok</li></a>
       </ul>
     </nav>
   </header>
